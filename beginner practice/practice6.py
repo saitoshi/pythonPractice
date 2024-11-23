@@ -7,10 +7,11 @@
 @return true if it is a palindrome or not
 """
 def isPalindrome(userInput):
-    #declare a flag 
-    inputList = [char for char in userInput]
-    reverseList = inputList.reverse()
+    reverseInput = ''.join(reversed(userInput))
 
-    for x in range(len(inputList)):
-        if inputList[x] != reverseList[x]:
-            return False 
+    if (userInput == reverseInput):
+        return True 
+    return False 
+
+userInput = input("Place a string you would like to check if it is a palindrome: ")
+print(isPalindrome(userInput))
