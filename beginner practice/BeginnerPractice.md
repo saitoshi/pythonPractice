@@ -152,4 +152,7 @@ print(twoSum(listInput, userTarget))
 ```
 
 </li>
+<li>
+Given an integer x, return true if x is a palindrome, and false otherwise.
+</li>
 </ol>
