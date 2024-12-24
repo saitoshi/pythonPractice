@@ -17,3 +17,4 @@ def is_prime(num):
                 break
     return isPrime
 print(is_prime(5))
+
